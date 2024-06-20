@@ -1,0 +1,92 @@
+main .container-contato {
+  width: 80%;
+  margin: 5rem auto;
+  padding: 3rem 1rem;
+  color: #11130E;
+  background-color: #c5c5c5;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+main .container-contato .carta-hogwarts {
+  width: 50%;
+  margin-right: 2rem;
+  box-shadow: 0 0 10px rgba(29, 29, 29, 0.1);
+  margin-bottom: 3rem;
+}
+
+main .container-contato .carta-hogwarts img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 7px 11px 8px -3px rgba(0,0,0,0.44);
+}
+
+main .container-contato .conteudo-contato {
+  max-width: 500px;
+}
+
+main .container-contato .conteudo-contato .conteudo-texto h1{
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+main .text-style {
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  background-color: #11130E;
+  color: #f8de4f;
+}
+
+main .container-contato .conteudo-contato .conteudo-texto p {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+main .container-contato .conteudo-contato .formulario-contato h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #646464;
+}
+
+main .container-contato .conteudo-contato .formulario-contato form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+main .container-contato .conteudo-contato .formulario-contato form label {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+main .container-contato .conteudo-contato .formulario-contato form input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #646464;
+}
+
+main .container-contato .conteudo-contato .formulario-contato form input:focus {
+  outline: none;
+}
+
+main .container-contato .conteudo-contato .formulario-contato form button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #11130E;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+main .container-contato .conteudo-contato .formulario-contato form button:hover {
+  background-color: #1f201d;
+  box-shadow: 3px 9px 5px -3px rgba(0,0,0,0.24);
+}

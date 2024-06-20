@@ -4,15 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hogwarts | Contato</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="icon" href="./img/pngwing.com.png" type="image/x-icon">
 
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/pngwing.com.png" alt="logo de Hogwarts">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="container-contato">
+            <div class="carta-hogwarts">
+                <img src="/img/carta_hogwarts.jpg" alt="Uma carta em cima da mesa">
+            </div>
+            <div class="conteudo-contato">
+                <div class="conteudo-texto">
+                    <h1>
+                        Quer fazer parte do mundo de <span class="text-style">Hogwarts</span>?
+                    </h1>
+                    <p>
+                        Nosso ano letivo começa sempre no dia 1 de setembro.
+                        Envie sua coruja para saber se você está elegível a 
+                        uma vaga na Escola de Magia e Bruxaria de Hogwarts.
+                    </p>
+                    <p>
+                        Nosso endereço é ocultado por magia por motivos de 
+                        segurança, mas sua coruja saberá nos encontrar!
+                        Se você for elegível, enviaremos uma coruja com a 
+                        confirmação de sua matrícula, lista de materiais e 
+                        instruções para embarcar para a escola.
+                    </p>
+                    <p>
+                        Se quiser ficar por dentro das novidades do mundo bruxo 
+                        e de Hogwarts, só preencher o formulário abaixo. Nossa 
+                        coruja te enviará novidades!
+                    </p>
+                </div>
+
+                <div class="formulario-contato">
+                    <h2>
+                        Quero receber minha coruja!
+                    </h2>
+
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
