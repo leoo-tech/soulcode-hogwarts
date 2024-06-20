@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+  main .container-contato .carta-hogwarts {
+    margin-right: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1369px) {
+  main .container-contato .carta-hogwarts {
+    width: 500px;
+  }
+}
