@@ -9,3 +9,33 @@ html {
 body {
   background-color: #11130E;
 }
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 0.8rem 0;
+}
+
+/* .navbar {
+  width: 100%;
+} */
+
+.navbar ul {
+  display: flex;
+  gap: 0.8rem;
+  list-style: none;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  color: #FFFFFF;
+  max-width: 100px;
+}
+
+#logo-hogwarts {
+  width: 100%;
+}
