@@ -66,8 +66,6 @@ main .container-contato .conteudo-contato .formulario-contato form label {
 
 main .container-contato .conteudo-contato .formulario-contato form input {
   padding: 0.5rem;
-  border-radius: 5px;
-  border: 1px solid #646464;
 }
 
 main .container-contato .conteudo-contato .formulario-contato form input:focus {
@@ -84,6 +82,7 @@ main .container-contato .conteudo-contato .formulario-contato form button {
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s;
+  margin-top: 1rem;
 }
 
 main .container-contato .conteudo-contato .formulario-contato form button:hover {
