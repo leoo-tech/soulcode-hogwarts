@@ -49,6 +49,14 @@ main .banner-disciplinas .conteudo-disciplinas strong {
   color: #f8de4f;
   font-size: 0.7rem;
 }
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+
 .timeline-container {
   display: flex;
   justify-content: space-between;
@@ -56,7 +64,7 @@ main .banner-disciplinas .conteudo-disciplinas strong {
   width: 90%;
   gap: 1rem;
   flex-wrap: wrap;
-  margin: 3rem auto;
+  margin: 3rem auto 10rem;
 }
 
 .timeline-container .timeline {
