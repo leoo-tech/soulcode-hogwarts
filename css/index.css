@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=IM+Fell+English:ital@0;1&display=swap');
+
+body {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #121212;
+    overflow-x: hidden;
+    margin: 0;
+}
+
 .banner img {
-    width: 40%;
+    max-width: 100%;
     height: auto;
-    display: flex;
+    /* display: flex; */
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .banner {
@@ -12,16 +23,17 @@
 }
 
 .principal {
-    width: 100%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 1rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 h1,
 h2,
 h3 {
     text-align: center;
+    font-family: "Cinzel Decorative", cursive;
 }
 
 h1 {
@@ -38,13 +50,47 @@ h3 {
 
 .principal p {
     font-size: 1.2rem;
+    line-height: 2.5rem;
     text-align: justify;
     flex-wrap: wrap;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #11130E;
-    color: #FFFFFF;
+/* Seções e artigos (adicione estilos conforme necessário) */
+.noticias,
+.eventos,
+.welcome,
+.contato {
+    /* Exemplo de estilo para seções */
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
+
+.sobre a {
+    /* Estilos para o link */
+    display: inline-block;
+    /* Permite aplicar padding e margin ao link */
+    text-decoration: none;
+}
+
+.sobre button {
+    /* Estilos para o botão */
+    background-color: #f8de4f;
+    color: #11130e;
+    padding: 12px 20px;
+    /* Aumentei o padding horizontal para melhor aparência */
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: "Cinzel", serif;
+    /* Use a mesma fonte do link para consistência */
+    font-weight: 800;
+}
+
+.sobre button:hover {
+    /* Estilos para o botão ao passar o mouse */
+    background-color: #11130e;
+    color: #f8de4f;
+}
+
