@@ -19,6 +19,20 @@
 
   /* Pagina inicial */
 
+  .banner img {
+    margin: 0 12px;
+    /* Adiciona margem nas laterais para não tocar as bordas */
+  }
+
+  .principal {
+    max-width: 100%;
+    /* Permite que o conteúdo ocupe toda a largura */
+    padding: 1rem;
+    /* Reduz o padding para economizar espaço */
+  }
+
+
+
 }
 
 /* Notebook Layout */
@@ -39,6 +53,18 @@
   }
 
   /* Página inicial */
+
+  .banner img {
+    margin: 0 10px;
+    /* Adiciona margem nas laterais para não tocar as bordas */
+  }
+
+  .principal {
+    max-width: 100%;
+    /* Permite que o conteúdo ocupe toda a largura */
+    padding: 1rem;
+    /* Reduz o padding para economizar espaço */
+  }
 
 
 }
