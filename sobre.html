@@ -1,85 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escola de Magia e Bruxaria de Hogwarts</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
+
 </head>
-
 <body>
+    <header class="cabecalho">
+        <!-- logo de hogwarts como um link para a pagina principal -->
 
-    <header>
-        <img class="logo" src="img/pngwing.com.png" alt="Logotipo de Hogwarts">
-
-        <div class="cabecalho">
-            <h1>Hogwarts</h1>
-            <h2>Escola de magia e bruxaria</h2>
-        </div>
+        <a href="index.html"><img id="logo-hogwarts" src="img/logo-hogwarts.png" alt="Logo de Hogwarts"></a>
+        <!-- menu de navegação -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main id="herohero" class="todo">
-
-        <section class="card">
-            <img src="img/albus-dumbledore-910x512.jpg" alt="Albus Dumbledore">
-            <div class="info">
-                <h3>Albus Dumbledore</h3>
-                <ul>
-                    <li>Matéria: Transfiguração - 1956</li>
-                    <li>Outras matérias e notas: Diretor, 1956-1997</li>
-                </ul>
-            </div>
+    <main class="principal">
+        <section class="conteudo">
+            <article class="historia">
+                <h1>Escola de Magia e Bruxaria de Hogwarts</h1>
+                <p>Grifinória, Salazar Sonserina, Helga Lufa-Lufa e Rowena Corvinal. A intenção era criar um ambiente seguro para o ensino da magia a crianças do Reino Unido. Cada fundador tinha uma visão específica sobre as qualidades desejadas nos alunos, o que levou à criação das quatro casas de Hogwarts.<br> Originalmente, os próprios fundadores selecionavam os alunos para suas casas. Para garantir a continuidade desse processo após suas mortes, Godric Grifinória enfeitiçou um chapéu, o Chapéu Seletor, que continuou a tarefa de escolha, baseando-se nas características dos alunos e possuindo uma personalidade própria.<br> A localização exato de Hogwarts não é divulgada, é conhecida apenas por estar na Escócia, próxima à vila bruxa de Hogsmeade. O acesso à escola se dá pelo Expresso de Hogwarts, partindo de Londres no dia 1º de setembro. Os alunos do primeiro ano chegam à escola em barcos pelo Lago Negro, enquanto os alunos mais velhos utilizam carruagens puxadas por testrálios. Após a formatura, os alunos deixam a escola também de barco, completando o ciclo.</p>
+            </article>
         </section>
 
-        <section class="card">
-            <img src="img/minerva-mcgonagall-910x512.jpg" alt="Minerva McGonagall">
-            <div class="info">
-                <h3>Minerva McGonagall</h3>
-                <ul>
-                    <li>Matéria: Transfiguração, 1956-1998</li>
-                    <li>Outras matérias e notas: Diretora Substituta, Diretora da Grifinória, Diretora de Hogwarts, 1998-antes de 2017</li>
-                </ul>
-            </div>
+        <section class="conteudo">
+            <article class="historia">
+                <h1>Nosso corpo docente</h1>
+                <p>Queridos Estudantes e Familiares, <br>É com imenso prazer que gostaríamos de apresentar os incríveis professores que compõem o corpo docente da Escola de Magia e Bruxaria de Hogwarts neste ano letivo. Cada um deles traz consigo não apenas uma profunda compreensão da magia, mas também uma paixão inigualável pela educação e pelo bem-estar de nossos alunos. <br>É relevante ressaltar que os professores, em sua grande maioria, foram alunos de Hogwarts no passado e sabem da responsabilidade a que são submetidos.</p>
+            </article>
+
+            <section class="cards">
+                <article class="card">
+                    <img src="img/minerva-mcgonagall-910x512.jpg" alt="Minerva McGonagall">
+                    <div class="info">
+                        <h3>Minerva McGonagall</h3>
+                        <ul>
+                            <li>Matéria: Transfiguração, 1956-1998</li>
+                            <li>Outras matérias e notas: Diretora Substituta, Diretora da Grifinória, Diretora de Hogwarts, 1998-antes de 2017</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="img/albus-dumbledore-910x512.jpg" alt="Albus Dumbledore">
+                    <div class="info">
+                        <h3>Albus Dumbledore</h3>
+                        <ul>
+                            <li>Matéria: Transfiguração - 1956</li>
+                            <li>Outras matérias e notas: Diretor, 1956-1997</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <img src="img/severus-snape-910x512.jpg" alt="Severus Snape">
+                    <div class="info">
+                        <h3>Severus Snape</h3>
+                        <ul>
+                            <li>Matéria: Poções, 1980-1996; Defesa Contras as Artes das Trevas, 1996-1997; Diretor, 1997-1998.</li>
+                            <li>Outras matérias e notas: Diretor da Sonserina. Foi educador por mais de dezesseis anos.</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
         </section>
 
-        <section class="card">
-            <img src="img/filius-flitwick.jpg" alt="Fílio Flitwick">
-            <div class="info">
-                <h3>Fílius Flitwick</h3>
-                <ul>
-                    <li>Matéria: Feitiços</li>
-                    <li>Outras matérias e notas: Diretor da Corvinal; meio-duende.</li>
-                </ul>
-            </div>
-        </section>
+        <section class="conteudo">
+            <article class="historia">
+                <h1>Nossos alunos destaque</h1>
+                <p>Caros Alunos Destaque,<br>Parabéns pelo seu excepcional desempenho acadêmico e dedicação incansável. Vocês são fontes de inspiração para todos nós, mostrando que com determinação e paixão pelo conhecimento, tudo é possível.<br>Continuem sendo modelos e inspirando seus colegas com suas conquistas e generosidade.<br>Atenciosamente,<br>Escola de Magia e Bruxaria de Hogwarts</p>
+            </article>
 
-        <section class="card">
-            <img src="img/holanda-hooch.jpg" alt="Holanda Hooch">
-            <div class="info">
-                <h3>Holanda Hooch</h3>
-                <ul>
-                    <li>Matéria: Instrutora de Voo</li>
-                    <li>Outras matérias e notas: Juíza das partidas de Quadribol de Hogwarts.</li>
-                </ul>
-            </div>
-        </section>
+            <section class="cards">
+                <article class="card">
+                    <img src="img/hermione-granger-910x512 (1).jpg" alt="Hermione Granger">
+                    <div class="info">
+                        <h3>Hermione Granger</h3>
+                        <ul>
+                            <li>Casa de Hogwarts: Grifinória</li>
+                            <li>Outras matérias e notas: Aos 11 anos de idade foi aceita na Escola de Magia e Bruxaria de Hogwarts. Sempre se mostrou uma estudante exemplar, com um excelente histórico acadêmico. Foi considerada a melhor aluna em praticamente todas as classes onde estudou.</li>
+                        </ul>
+                    </div>
+                </article>
 
-        <section class="card">
-            <img src="img/severus-snape-910x512.jpg" alt="Severus Snape">
-            <div class="info">
-                <h3>Severus Snape</h3>
-                <ul>
-                    <li>Matéria: Poções, 1980-1996; Defesa Contras as Artes das Trevas, 1996-1997; Diretor, 1997-1998.</li>
-                    <li>Outras matérias e notas: Diretor da Sonserina, desconhecido-1996. Disse para Dolores Umbridge que já ensinava em Hogwarts por dezesseis anos, logo após informar Voldemort da profecia. Assassinado por Voldemort durante a Batalha de Hogwarts.</li>
-                </ul>
-            </div>
+                <article class="card">
+                    <img src="img/draco-malfoy-910x512.jpg" alt="Draco Malfoy">
+                    <div class="info">
+                        <h3>Draco Malfoy</h3>
+                        <ul>
+                            <li>Casa de Hogwarts: Sonserina</li>
+                            <li>Outras matérias e notas: Foi eleito monitor da Sonserina e se tornou membro da Brigada Inquisitorial em seu quinto ano em Hogwarts. Conta com grandes habilidades mágicas, especialmente em feitiços de combate e artes das trevas. </li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <img src="img/luna-lovegood-910x512.jpg" alt="Luna Lovegood">
+                    <div class="info">
+                        <h3>Luna Lovegood</h3>
+                        <ul>
+                            <li>Casa de Hogwarts: Lufa-Lufa</li>
+                            <li>Outras matérias e notas: Possui impressionantes habilidades mágicas. É uma das primeiras a conseguir produzir um patrono corpóreo, tarefa difícil até mesmo para adultos.</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
         </section>
-
     </main>
+    <hr>
+    <footer>
+        <div class="conteudoFigura1">
+            <a href="index.html"><img class="logoTitle" id="brasao" src="img/logo-hogwarts.png"
+                    alt="Brasão da Escola de Hogwarts"></a>
+            <h2 class="logoTitle">Escola de Magia e <br> Bruxaria de Hogwarts</h2>
+        </div>
 
+        <img id="imgministerio" src="img/logo-ministerio.png" alt="logo do Ministério da Magia">
+
+        <div class="redesSociais">
+            <h2>Redes Sociais:</h2>
+            <img src="img/instagram_f_icon-icons.com_65485.png" alt="Ícone para direcionar para o Instagram">
+            <img src="img/facebook_icon_137647.png" alt="Ícone para direcionar para o facebook">
+            <img src="img/twitter_x_new_logo_x_icon_256077.png" alt="Ícone para direcionar para o twitter">
+            <img src="img/linkedin_icon-icons.com_49942.png" alt="Ícone para direcionar para o linkedin">
+        </div>
+    </footer>
 </body>
-
 </html>
