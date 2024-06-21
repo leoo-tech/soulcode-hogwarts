@@ -7,7 +7,7 @@ Ana - sobre nós - cards de professores/alunos
 
 Leonardo - index - alterações básicas nos títulos e  subtítulos
 
-Moisés - a definir
+Moisés - Contato
 ## Referência
 
  - [Versão coderhouse](https://projeto-final-coderhouse-pi.vercel.app/)
