@@ -47,10 +47,20 @@ body {
   border-radius: 25px;
 }
 
+@keyframes rotacao {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
 .cabecalho #logo-hogwarts {
   text-decoration: none;
   color: #FFFFFF;
   width: 92px;
+  animation: rotacao 5s 0s forwards;
 }
 
 main .text-style {
