@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=IM+Fell+English:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Adiciona esta linha para centralizar o conteúdo */
     font-family: 'IM Fell English', serif;
     color: whitesmoke;
     background-color: #121212;
-    overflow-x: hidden;
     margin: 0;
+    overflow-x: hidden;
 }
 
-.prin{
+.prin, .conteudo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 20px;
+    align-items: center; /* Centraliza os filhos dentro desses containers */
 }
 
 .conteudo {
-    display: flex;
     gap: 25px;
-    padding: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .historia {
-    width: calc(100% - 25px); 
+    width: 100%;
     max-width: 700px;
     height: 400px;
     background-color: #c5c5c5;
     color: #11130E;
     padding: 3rem 1rem;
     box-shadow: 0 0 10px rgba(29, 29, 29, 0.1);
-    border-radius: 7px;
+
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 25px;
+    align-items: center; /* Adiciona esta linha para centralizar o conteúdo dentro do artigo */
 }
 
 @media (max-width: 1024px) {
     .conteudo {
-        flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
 
     .historia {
         height: auto;
-        max-width: calc(100% - 25px);
     }
 }
 
@@ -54,10 +55,10 @@ body {
     margin-bottom: 1.5rem;
     font-size: 2rem;
     text-align: center;
-    border-radius: 5px;
     padding: 0.2rem 0.5rem;
     background-color: #11130E;
     color: #f8de4f;
+    border-radius: 5px;
 }
 
 .historia p {
@@ -73,13 +74,6 @@ body {
     justify-content: center;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 10px -11px 34px -7px rgba(248, 121, 3, 0.49);
-    -webkit-box-shadow: 10px -11px 34px -7px rgba(243, 154, 21, 0.49); 
-    -moz-box-shadow: 10px -11px 34px -7px rgba(0, 0, 0, 0.49);
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -88,9 +82,13 @@ body {
     border: 3px solid #838383;
     border-radius: 7px;
     box-shadow: 10px -11px 34px -7px rgba(0, 0, 0, 0.49);
-    -webkit-box-shadow: 10px -11px 34px -7px rgba(0, 0, 0, 0.49); 
-    -moz-box-shadow: 10px -11px 34px -7px rgba(0, 0, 0, 0.49);
     transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px -11px 34px -7px rgba(248, 222, 79, 1);
+    ;
 }
 
 .info {
@@ -114,7 +112,5 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 20px;
-    background-color: #11130E;
-    color: #f8de4f;
-    
+    text-shadow: 1px 1px 1px #121212, 0 0 15px #f8de4f, 0 0 5px #7e8013;
 }
