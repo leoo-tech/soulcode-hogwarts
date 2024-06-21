@@ -24,8 +24,8 @@ body {
 
 .historia {
     width: calc(100% - 25px); 
-    max-width: 700px; 
-    height: auto; 
+    max-width: 700px;
+    height: 400px;
     background-color: #c5c5c5;
     color: #11130E;
     padding: 3rem 1rem;
@@ -53,6 +53,11 @@ body {
     line-height: 1.5;
     margin-bottom: 1.5rem;
     font-size: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    background-color: #11130E;
+    color: #f8de4f;
 }
 
 .historia p {
@@ -109,5 +114,7 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black, 0 0 15px orange, 0 0 5px #E87534;
+    background-color: #11130E;
+    color: #f8de4f;
+    
 }
