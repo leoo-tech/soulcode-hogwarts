@@ -16,10 +16,14 @@
   #imgministerio {
     margin-right: 0;
   }
+
+  /* Pagina inicial */
+
 }
 
 /* Notebook Layout */
 @media (max-width: 1024px) {
+
   /* Pagina de Contato */
   main .container-contato .carta-hogwarts {
     margin-right: 0;
@@ -32,5 +36,96 @@
     flex-direction: column;
     justify-content: center;
     max-width: 500px;
+  }
+
+  /* Página inicial */
+
+
+}
+
+/* responsividade para smartphones até 480px - pagina index */
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1rem;
+    /* Reduz o tamanho da fonte para melhor leitura */
+  }
+
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header .logo {
+    margin-bottom: 20px;
+    /* Espaço entre a logo e os links abaixo */
+  }
+
+  .header nav {
+    width: 100%;
+    /* Garante que a nav ocupe a largura total */
+  }
+
+  .header nav a {
+    display: block;
+    /* Faz cada link ocupar sua própria linha */
+    margin: 5px 0;
+    /* Adiciona espaço vertical entre os links */
+  }
+
+  .banner img {
+    margin: 0 10px;
+    /* Adiciona margem nas laterais para não tocar as bordas */
+  }
+
+  .principal {
+    max-width: 100%;
+    /* Permite que o conteúdo ocupe toda a largura */
+    padding: 0.5rem;
+    /* Reduz o padding para economizar espaço */
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1.2rem;
+    /* Reduz o tamanho da fonte dos cabeçalhos */
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .principal p,
+  .noticias,
+  .eventos,
+  .welcome,
+  .contato {
+    padding: 10px;
+    /* Reduz o padding para melhor ajuste */
+    margin-bottom: 10px;
+    /* Reduz a margem inferior para economizar espaço */
+  }
+
+  .sobre button {
+    padding: 8px 16px;
+    /* Ajusta o padding para manter a proporção */
+    font-size: 0.9rem;
+    /* Reduz o tamanho da fonte para melhor ajuste */
+  }
+
+  /* Rodapé */
+  footer h2 {
+    font-size: 1rem;
+    /* Ajusta o tamanho da fonte do subtítulo */
+    margin-bottom: 10px;
+    /* Espaço antes dos ícones */
   }
 }
