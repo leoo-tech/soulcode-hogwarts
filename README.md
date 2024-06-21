@@ -1,5 +1,5 @@
 
-# Título do Projeto
+# Escola Hogwarts
 
 reimaginação do site de hogwarts - agora como parte do curso da soulcode
 
