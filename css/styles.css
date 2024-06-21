@@ -11,6 +11,7 @@ body {
 }
 
 .cabecalho {
+  background-color: #11130E !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,4 +46,11 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   width: 92px;
+}
+
+main .text-style {
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  background-color: #11130E;
+  color: #f8de4f;
 }

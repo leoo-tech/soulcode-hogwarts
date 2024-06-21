@@ -4,6 +4,12 @@
     width: 100%;
     max-width: 500px;
   }
+
+  main .timeline-container {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+  }
 }
 
 @media (max-width: 1369px) {

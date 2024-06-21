@@ -33,13 +33,6 @@ main .container-contato .conteudo-contato .conteudo-texto h1{
   font-size: 2rem;
 }
 
-main .text-style {
-  border-radius: 5px;
-  padding: 0.2rem 0.5rem;
-  background-color: #11130E;
-  color: #f8de4f;
-}
-
 main .container-contato .conteudo-contato .conteudo-texto p {
   line-height: 1.5;
   margin-bottom: 1.5rem;
