@@ -67,6 +67,11 @@ h3 {
     border-radius: 10px;
 }
 
+.contato a{
+    color: #f8de4f;
+    text-decoration: none;
+}
+
 .sobre a {
     /* Estilos para o link */
     display: inline-block;
