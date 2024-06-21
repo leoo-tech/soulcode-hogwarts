@@ -7,7 +7,11 @@ Ana - sobre nós - cards de professores/alunos
 
 Leonardo - index - alterações básicas nos títulos e  subtítulos
 
-Moisés - Contato
+Moisés - Contato e Disciplinas
+
+vercel: https://soulcode-hogwarts.vercel.app/
+pages: https://leoo-tech.github.io/soulcode-hogwarts/
+
 ## Referência
 
  - [Versão coderhouse](https://projeto-final-coderhouse-pi.vercel.app/)
