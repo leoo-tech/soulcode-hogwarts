@@ -1,19 +1,36 @@
+/* Smartphone Layout */
+@media (max-width: 480px) {
+  .cabecalho {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* Tablet Layout */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #imgministerio {
+    margin-right: 0;
+  }
+}
+
+/* Notebook Layout */
 @media (max-width: 1024px) {
+  /* Pagina de Contato */
   main .container-contato .carta-hogwarts {
     margin-right: 0;
     width: 100%;
     max-width: 500px;
   }
 
+  /* Pagina de disciplina */
   main .timeline-container {
     flex-direction: column;
     justify-content: center;
     max-width: 500px;
-  }
-}
-
-@media (max-width: 1369px) {
-  main .container-contato .carta-hogwarts {
-    width: 500px;
   }
 }
